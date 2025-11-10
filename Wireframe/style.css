@@ -41,6 +41,13 @@ svg {
   width: 100%;
   object-fit: cover;
 }
+#readme {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ====== Site Layout ====== 
 Setting the overall rules for page regions
 https://www.w3.org/WAI/tutorials/page-structure/regions/
