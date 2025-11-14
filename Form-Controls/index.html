@@ -9,11 +9,69 @@
   </head>
   <body>
     <header>
-      <h1>Product Pick</h1>
+      <h1>T-shirt Pick</h1>
     </header>
     <main>
       <form>
-        <!-- write your html here-->
+        <fieldset>
+          <legend>Fill in the details to pick your T-shirt</legend>
+        
+        <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" minlength="2" maxlength="50" required/>
+       </div>
+
+       <br>
+       
+       <div>
+        <label for="email">Email-ID:</label>
+        <input type="email" id="email" name="email"required/>
+       </div>
+        </fieldset>
+       
+       <br>
+       <fieldset>
+          <legend>Select T-shirt style:</legend>
+       
+       <label for="color">Choose your T-shirt color:</label>
+        <select id="color" name="color"required>
+          <option value="">Please select the color</option>
+          <option value="Blue">Blue</option>
+          <option value="Green">Green</option>
+          <option value="Black">Black</option>
+        </select>
+       
+        <br><br>
+       
+        <div>
+          
+          
+        <label for="">Choose your T-shirt size:</label>
+
+        <input type="radio" id="size-s" name="size" value="S" required/>
+        <label for="size-s">S</label>
+        
+        <input type="radio" id="size-m" name="size" value="M">
+        <label for="size-m">M</label>
+        
+        <input type="radio" id="size-l" name="size" value="L">
+        <label for="size-l">L</label>
+
+        <input type="radio" id="size-xl" name="size" value="XL">
+        <label for="size-xl">XL</label>
+        
+        <input type="radio" id="size-xxl" name="size" value="XXL">
+        <label for="size-xxl">XXL</label>
+        </fieldset>
+
+       </div>
+
+        <br>
+
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        </fieldset>
         <!-- 
           try writing out the requirements first as comments
         this will also help you fill in your PR message later-->
@@ -21,7 +79,7 @@
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Diksha Aggarwal</h2>
     </footer>
   </body>
 </html>
